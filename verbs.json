@@ -1,0 +1,62 @@
+[
+  {
+    "inf": "regalar",
+    "translate":"to give a gift"
+  },
+  {
+    "inf": "brindar",
+    "translate":"to toast"
+  },
+  {
+    "inf": "cambiar",
+    "translate":"to change"
+  },
+  {
+    "inf": "jubilarse",
+    "translate":"to retire"
+  },
+  {
+    "inf": "celebrar",
+    "translate":"to celebrate"
+  },
+  {
+    "inf": "divertirse",
+    "translate":"to have fun"
+  },
+  {
+    "inf": "graduarse",
+    "translate":"to graduate"
+  },
+  {
+    "inf": "reírse",
+    "translate":"to laugh"
+  },
+  {
+    "inf": "odiar",
+    "translate":"to hate"
+  },
+  {
+    "inf":"pasar",
+    "translate": "to happen"
+  },
+  {
+    "inf":"relajarse",
+    "translate": "to relax"
+  },
+  {
+    "inf":"nacer",
+    "translate": "to be born"
+  },
+  {
+    "inf":"sorprender",
+    "translate": "to surprise"
+  },
+  {
+    "inf":"sonreír",
+    "translate": "to smile"
+  },
+  {
+    "inf":"invitar",
+    "translate": "to invite"
+  }
+]
