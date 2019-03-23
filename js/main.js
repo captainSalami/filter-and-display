@@ -10,12 +10,16 @@ class Note {
 //EVENT LISTENERS
 //OnLoad display LS notes
 document.addEventListener('DOMContentLoaded', Store.displayNotes);
+//OnLoad list JSON verbs in table
+document.addEventListener('DOMContentLoaded', displayVerbs)
 //Filter
 filter.addEventListener('keyup', filterNotes);
 //Submit
 form.addEventListener('submit', addNote);
 //Delete
 noteBank.addEventListener('click', removeNote);
+//special character click
+lettersBox.addEventListener('click', addChar);
 
 function addNote(e){
   i++;
@@ -43,33 +47,48 @@ function removeNote(e){
   e.preventDefault();
 }
 
+//Display verbs in table
+function displayVerbs(){
+  const xhr = new XMLHttpRequest();
+
+  xhr.open('GET', 'verbs.json', true);
+
+  xhr.onload = function(){
+    if(this.status === 200){
+      //console.log(this.responseText);
+      const verbs = JSON.parse(this.responseText);
+
+      let jsonOutput = '';
+
+      verbs.forEach(function(verb){
+        jsonOutput += `
+          <tr>
+            <td>${verb.inf}</td>
+            <td>${verb.translate}</td>
+          </tr>
+        `;
+      });
+      verbTbody.innerHTML = jsonOutput;
+    }
+  }
+  xhr.send();
+}
+
 //Filter Through Notes
 function filterNotes(e){
   matchedRow.innerHTML = '';
-  const text = e.target.value.toLowerCase();
+  const text = filter.value.toLowerCase();
 
   //filter text sent to storage side
   Store.filterNotes(text);
 
-  // document.querySelectorAll('.collection-item').forEach(function(val){
-  //   const spanishText = val.children[1].children[0].textContent;
-  //   const translation = val.children[1].children[1].textContent;
-  //   if(spanishText.toLowerCase().indexOf(text) != -1 || translation.toLowerCase().indexOf(text) != -1){
-  //     const column = document.createElement('div');
-  //     column.className = 'col-md-4 my-3';
-  //     column.innerHTML = `
-  //     <div class="card" style="width: 18rem;">
-  //       <div class="card-body">
-  //         <h6 class="card-subtitle mb-2 text-muted">${spanishText}</h6>
-  //         <p class="card-text">${translation}</p>
-  //       </div>
-  //     </div>
-  //     `;
-  //     matchedRow.appendChild(column);
-  //   }else{
-  //     while(matchedRow.children != ''){
-  //       matchedRow.removeChild(matchedRow.children[0]);
-  //     }
-  //   }
-  // });
+  filterJson(text);
+}
+
+//Add Special Character to filter text
+function addChar(e){
+  if(e.target.value != null){
+    filter.value = filter.value + e.target.innerText;
+    filterNotes();
+  }
 }

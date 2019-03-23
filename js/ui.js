@@ -5,13 +5,16 @@ const tbody = document.getElementById('table-body');
 const row = document.getElementById('row');
 const matchedRow = document.getElementById('matched-row');
 const noteBank = document.getElementById('note-bank');
+const verbTbody = document.getElementById('verb-section');
+const lettersBox = document.getElementById('chars');
+const letters = document.querySelectorAll('special-char');
 let i = 0;
 
 //UI Class
 class UI{
   addNoteToPage(note){
     const col = document.createElement('div');
-    col.className = 'col-md-3 my-3';
+    col.className = 'col-md-4 my-3';
     col.innerHTML = `
       <div class="card collection-item">
         <div class="card-header">
@@ -49,3 +52,10 @@ class UI{
     matchedRow.appendChild(col);
   }
 }
+
+//Form and Filter Box bg-color and round corners
+const sections = document.querySelectorAll('div.shadow-sm');
+sections.forEach(function(box) {
+  //box.style.backgroundColor = '#8797AF';
+  box.classList.add('bg-light', 'rounded');
+})
