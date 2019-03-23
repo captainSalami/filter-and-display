@@ -16,7 +16,7 @@
       <div class="row">
 
         <div class="col-md-3 my-4 mx-3 shadow-sm">
-          <h1 class="display-4">Phrase Form</h1>
+          <h1 class="display-4 mt-1">Phrase Form</h1>
           <form id="span-form" class="my-4">
               <div class="form-group">
                 <input type="text" class="form-control form-control-sm" id="keywords" placeholder="Keywords">
@@ -36,16 +36,26 @@
 
         <div class="offset-md-1 col-md-7 my-4 shadow-sm py-2">
           <h1 class="lead">Matched Phrases</h1>
-          <div class="form-row">
-            <div class="input-group col-md-4 mb-3">
+
+          <div class="form-row mb-3">
+            <div class="input-group col-md-4">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="prependText">Filter</span>
               </div>
               <input type="text" class="form-control" id="filter" placeholder="Filter" aria-describedby="prependText">
             </div>
+            <div id="chars">
+              <button type="button" class="btn btn-sm btn-light shadow-sm m-1 special-char" value="á">á</button>
+              <button type="button" class="btn btn-sm btn-light shadow-sm m-1 special-char" value="é">é</button>
+              <button type="button" class="btn btn-sm btn-light shadow-sm m-1 special-char" value="í">í</button>
+              <button type="button" class="btn btn-sm btn-light shadow-sm m-1 special-char" value="ñ">ñ</button>
+              <button type="button" class="btn btn-sm btn-light shadow-sm m-1 special-char" value="ó">ó</button>
+              <button type="button" class="btn btn-sm btn-light shadow-sm m-1 special-char" value="ú">ú</button>
+            </div>
           </div><!--FORM-ROW for filter-->
           <hr class="mt-1">
           <div class="row" id="matched-row">
+            
             <h3 class="display-4 py-5 mx-auto text-muted">Filtered Notes Appear Here</h3>
           </div>
         </div>
@@ -53,7 +63,23 @@
     </div><!--CONTAINER-FLUID-->
 
     <div class="container-fluid" id="note-bank">
-      <div class="row" id="row">
+      <div class="row" id="">
+        <div class="col-md-8">
+          <div class="row" id="row">
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <table class="table table-sm">
+            <thead>
+              <th>Infinitive</th>
+              <th>Translation</th>
+            </thead>
+            <tbody id="verb-section">
+
+            </tbody>
+          </table>
+        </div>
         
       </div><!--ROW-->
     </div><!--CONTAINER-->
@@ -70,6 +96,7 @@
 
     <script src="js/storage.js"></script>
     <script src="js/ui.js"></script>
+    <script src="js/filter.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

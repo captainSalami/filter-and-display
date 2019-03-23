@@ -57,7 +57,7 @@ class Store{
     }
 
     notes.forEach(function(note, index){
-      if(noteItem.children[0].children[0].children[0].textContent == note.id){
+      if(noteItem.children[0].children[0].children[0].textContent == note.id && noteItem.children[0].children[1].children[0].textContent == note.span){
         //console.log('Hello');
         notes.splice(index, 1);
       }

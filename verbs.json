@@ -1,62 +1,332 @@
 [
   {
     "inf": "regalar",
-    "translate":"to give a gift"
+    "translate":"to give a gift",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf": "brindar",
-    "translate":"to toast"
+    "translate":"to toast",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf": "cambiar",
-    "translate":"to change"
+    "translate":"to change",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf": "jubilarse",
-    "translate":"to retire"
+    "translate":"to retire",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf": "celebrar",
-    "translate":"to celebrate"
+    "translate":"to celebrate",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf": "divertirse",
-    "translate":"to have fun"
+    "translate":"to have fun",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf": "graduarse",
-    "translate":"to graduate"
+    "translate":"to graduate",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf": "reírse",
-    "translate":"to laugh"
+    "translate":"to laugh",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf": "odiar",
-    "translate":"to hate"
+    "translate":"to hate",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf":"pasar",
-    "translate": "to happen"
+    "translate": "to happen",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf":"relajarse",
-    "translate": "to relax"
+    "translate": "to relax",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf":"nacer",
-    "translate": "to be born"
+    "translate": "to be born",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf":"sorprender",
-    "translate": "to surprise"
+    "translate": "to surprise",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf":"sonreír",
-    "translate": "to smile"
+    "translate": "to smile",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   },
   {
     "inf":"invitar",
-    "translate": "to invite"
+    "translate": "to invite",
+    "present": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ],
+    "preterite": [
+      {
+        "yo":"",
+        "tu":"",
+        "usted":"",
+        "nosotros":"",
+        "ustedes":""
+      }
+    ]
   }
 ]
