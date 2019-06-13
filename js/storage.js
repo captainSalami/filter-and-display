@@ -1,4 +1,69 @@
-class Store{
+class Store {
+  //Get notes from LS
+  static getFavorites(){
+    let ids;
+    if(localStorage.getItem('phraseIDs') === null){
+      ids = [];
+    }else{
+      ids = JSON.parse(localStorage.getItem('phraseIDs'));
+    }
+    return ids;
+  }
+
+  //Display notes from LS
+  static displayFavorites(){
+    const ids = Store.getFavorites();
+
+    ids.forEach(function(id){
+      findIdsInJson(id);
+      //const ui = new UI;
+      
+      //ui.addPhraseToPage(phrase);
+    });
+  }
+
+  //Add note to LS
+  static addFavoriteToLS(phraseID){
+    const ids = Store.getFavorites();
+
+    ids.push(phraseID);
+
+    localStorage.setItem('phraseIDs', JSON.stringify(ids));
+  }
+  
+  //Remove note from LS
+  static removeFavoriteFromLS(selectedId){
+    const ids = Store.getFavorites();
+
+    ids.forEach(function(id, index){
+      if(selectedId == id) {
+        ids.splice(index, 1);
+      }
+    });
+    localStorage.setItem('phraseIDs', JSON.stringify(ids));
+  }
+
+
+  //Compare Value with Json Data Key and get Data
+  static siftJson(current, compareKey, want){
+    const ids = Store.getFavorites();
+
+    ids.forEach(id => {
+      if(note.span.toLowerCase().indexOf(verb) != -1 || note.engl.toLowerCase().indexOf(verb) != -1){
+        const ui = new UI;
+        //console.log(note.span);
+        ui.addNoteExample(note);
+      }else{
+        //console.log("Note does not have verb");
+      }
+    });
+
+  }
+
+
+
+
+
   //Get notes from LS
   static getNotes(){
     let notes;
@@ -31,22 +96,6 @@ class Store{
     localStorage.setItem('notes', JSON.stringify(notes));
   }
 
-  //Filter notes in LS
-  static filterNotes(text){
-    const notes = Store.getNotes();
-
-    notes.forEach(function(note){
-      if(note.span.toLowerCase().indexOf(text) != -1 || note.engl.toLowerCase().indexOf(text) != -1){
-        const ui = new UI;
-
-        ui.showFilteredNotes(note);
-      }else{
-        //grab children from matchedRow 
-        //remove children 
-      }
-    });
-  }
-
   //Remove note from LS
   static removeNoteFromLS(noteItem){
     let notes;
@@ -57,12 +106,10 @@ class Store{
     }
 
     notes.forEach(function(note, index){
-      if(noteItem.children[0].children[0].children[0].textContent == note.id && noteItem.children[0].children[1].children[0].textContent == note.span){
-        //console.log('Hello');
+      if(noteItem.children[0].children[0].children[0].textContent == note.id && noteItem.children[0].children[1].children[0].textContent == note.span) {
         notes.splice(index, 1);
       }
     });
     localStorage.setItem('notes', JSON.stringify(notes));
-    // console.log(noteItem.children[0].children[0].children[0].textContent);
   }
 }

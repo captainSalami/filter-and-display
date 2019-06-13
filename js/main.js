@@ -1,94 +1,243 @@
-class Note {
-  constructor(id, keywords, span, engl){
-    this.id = id;
-    this.keywords = keywords;
-    this.span = span;
-    this.engl = engl;
-  }
-}
+const ui = new UI();
+const vhttp = new VerbsHTTP;
+const http = new EasyHTTP;
 
 //EVENT LISTENERS
-//OnLoad display LS notes
-document.addEventListener('DOMContentLoaded', Store.displayNotes);
-//OnLoad list JSON verbs in table
-document.addEventListener('DOMContentLoaded', displayVerbs)
+document.addEventListener('DOMContentLoaded', Store.displayFavorites);
 //Filter
-filter.addEventListener('keyup', filterNotes);
-//Submit
-form.addEventListener('submit', addNote);
-//Delete
-noteBank.addEventListener('click', removeNote);
-//special character click
+filter.addEventListener('keyup', runFilter);
+
+//verb click
+filterBox.addEventListener('click', selectVerb);
+
+//special chars
 lettersBox.addEventListener('click', addChar);
 
-function addNote(e){
-  i++;
-  const id = i;
-  const keys = document.getElementById('keywords').value;
-  const spanText = document.getElementById('spanish').value;
-  const translation = document.getElementById('english').value;
+//phrase section mouseover
+box.addEventListener('mouseover', onStar);
 
-  const note = new Note(id, keys, spanText, translation);
-  const ui = new UI;
-  Store.addNoteToLS(note);
-  ui.addNoteToPage(note);
+//click to fave or unfave phrase
+box.addEventListener('click', clickStar);
 
-  e.preventDefault();
+//remove favorite phrase
+favorites.addEventListener('click', removeFavorite);
+
+function showVerbs() {
+  const verbs = vhttp.get();
+  verbs.then(data => console.log(data))
+    .catch(err => console.log(err));
 }
 
-//Remove Note Event
-function removeNote(e){
-  const note = e.target.parentElement.parentElement.parentElement;
-  if(e.target.parentElement.classList.contains('delete')){
-    const ui = new UI;
-    ui.removeNoteFromPage(note.parentElement);
-    Store.removeNoteFromLS(note.parentElement);
-  }
-  e.preventDefault();
+async function getVerbs() {
+  const response = await fetch('verbs.json');
+  const resData = await response.json();
+  return resData;
 }
 
-//Display verbs in table
-function displayVerbs(){
-  const xhr = new XMLHttpRequest();
+function runFilter(e) {
+  const text = e.target.value.toLowerCase();
+  // console.log(text);
+  filterVerbs(text);
+  filterBox.innerHTML = '';
+}
 
-  xhr.open('GET', 'verbs.json', true);
+async function filterVerbs(text) {
+  const response = await fetch('verbs.json');
+  const verbs = await response.json();
 
-  xhr.onload = function(){
-    if(this.status === 200){
-      //console.log(this.responseText);
-      const verbs = JSON.parse(this.responseText);
-
-      let jsonOutput = '';
-
-      verbs.forEach(function(verb){
-        jsonOutput += `
-          <tr>
-            <td>${verb.inf}</td>
-            <td>${verb.translate}</td>
-          </tr>
-        `;
-      });
-      verbTbody.innerHTML = jsonOutput;
+  verbs.forEach(verb => {
+    if(verb.inf.indexOf(text) != -1 || verb.translate.indexOf(text) != -1){
+      ui.conjugateVerb(verb);
     }
-  }
-  xhr.send();
+  });
 }
 
-//Filter Through Notes
-function filterNotes(e){
-  matchedRow.innerHTML = '';
-  const text = filter.value.toLowerCase();
+function selectVerb(e) {
+  if(e.target.tagName == 'TD'){
+    row.innerHTML = '';
+    const verb = e.target.innerText;
+    filterPhrases(verb);
+    //after filtered phrases are displayed 
+    //run check for favorites
+    //or
+    //run favorite check in filterVerbs
+  }
+  e.preventDefault();
+}
 
-  //filter text sent to storage side
-  Store.filterNotes(text);
 
-  filterJson(text);
+async function filterPhrases(verb) {
+  const response = await fetch('phrase.json');
+  const phrases = await response.json();
+  let counter = 0;
+  let favoriteCount = 0;
+  const storageIDs = Store.getFavorites();
+  
+  phrases.forEach(phrase => {
+    if(phrase.span.toLowerCase().indexOf(verb) != -1) {
+      counter++;
+      console.log(storageIDs);
+      let status = '';
+      if(storageIDs.includes(phrase.id)) {
+        status =  ['info', 'fas'];
+        favoriteCount++;
+        // ui.addPhraseExample(phrase, status);
+      }else{
+        status =  ['light', 'far'];
+        // ui.addPhraseExample(phrase, status);
+      }
+      ui.addPhraseExample(phrase, status);
+      //const status = ''; in both  if AND else conditions
+    }
+  });
+  //Run if no phrases are found for selected verb
+  if(counter == 0) {
+    ui.noMatch(verb);
+  }
+  ui.displayCount(counter, favoriteCount);
+}
+
+function onStar(e) {
+  //if star contains class favorited then dont run
+  if(e.target.classList.contains('far')) {
+    if(e.target.classList.contains('solid') != true) {
+      const star = e.target;
+      onHover(star, 'far', 'fas');
+    }
+
+  }
+  e.preventDefault();
+}
+
+function clickStar(e) {
+  if(e.target.classList.contains('fa-star')) {
+    const div = e.target.parentElement.parentElement;
+    const spanishText = div.children[1].innerText;
+    console.log(spanishText);
+    ui.starClicked(e.target.parentElement);
+    //spanish text is sent to find the phrase id in
+    //json file and store in LS
+    findPhraseInJson(spanishText);
+  }
+  e.preventDefault();
+}
+
+function removeFavorite(e) {
+  if(e.target.classList.contains('delete')) {
+    const elem =  e.target.parentElement.parentElement;
+    const spanishText = elem.children[1].innerHTML;
+    const item = e.target.parentElement.parentElement.parentElement.parentElement.parentElement;
+    ui.removeFavorite(item);
+    returnJsonId(spanishText, 'span');
+    console.log(`Removed Favorite Phrase: "${spanishText}"`);
+  }
+  e.preventDefault();
+}
+
+function returnJsonId(compareValue, compareKey) {
+  http.get()
+  .then(data => {
+    //let output = '';
+    const phrases = data.phrases;
+    phrases.forEach(phrase => {
+      if(phrase[compareKey] === compareValue) {
+        //output = phrase.id;
+        Store.removeFavoriteFromLS(phrase.id);
+      }
+    });
+    //console.log(output);
+  });
+}
+
+// async function getJsonId(text, compareKey) {
+//   const response = await fetch('phrase.json');
+//   const phrases = await response.json();
+//   let output = '';
+//   phrases.forEach(phrase => {
+//     if(phrase[compareKey].indexOf(text) != -1) {
+//       console.log(phrase.id);
+//       output = phrase.id;
+//     }
+//     // if(phrase[compareKey] == currentData) {
+//     //   console.log(phrase[want]);
+//     // }
+//   });
+//   console.log(output);
+//   return output;
+// }
+
+//automated scanner for JSON files
+// async function getJsonId(currentData, compareKey, want) {
+// const response = await fetch('phrase.json');
+// const phrases = await response.json();
+// phrases.forEach(phrase => {
+//   if(phrase[compareKey] == currentData) {
+//     console.log(phrase[want]);
+//   }
+// });
+//}
+
+async function findPhraseInJson(favePhrase) {
+  const response = await fetch('phrase.json');
+  const phrases = await response.json();
+  phrases.forEach(phrase => {
+    if(phrase.span.indexOf(favePhrase) != -1) {
+      console.log(phrase.id);
+      Store.addFavoriteToLS(phrase.id);
+      ui.addToFavoritePhrases(phrase);
+    }
+  });
+}
+
+async function findIdsInJson(phraseId) {
+  const response = await fetch('phrase.json');
+  const phrases = await response.json();
+  phrases.forEach(phrase => {
+    if(phrase.id == phraseId) {
+      ui.addToFavoritePhrases(phrase);
+    }
+  });
+}
+
+
+//remove and add classes on enter and on leave
+function onHover(elem, orig, temp) {
+  elem.addEventListener('mouseenter', function(e) {
+    elem.classList.remove(orig);
+    elem.classList.add(temp);
+  });
+  elem.addEventListener('mouseleave', function(e) {
+    elem.classList.remove(temp);
+    elem.classList.add(orig);
+  });
 }
 
 //Add Special Character to filter text
-function addChar(e){
+function addChar(e) {
   if(e.target.value != null){
     filter.value = filter.value + e.target.innerText;
-    filterNotes();
+    filterVerbs(filter.value);
+    filterBox.innerHTML = '';
+    filter.focus();
   }
+}
+
+
+//USE TO CONVERT LOCALSTORAGE TO JSON FORMAT
+function convertLS(e) {
+  const notes = Store.getNotes();
+  //console.log(notes);
+  let output = '';
+  notes.forEach(note => {
+    output += `
+    {
+      "id":"${note.id}",
+      "keywords":"${note.keywords}",
+      "span":"${note.span}",
+      "engl":"${note.engl}"
+    },
+    `;
+  });
+  console.log(output);
+  e.preventDefault();
 }
