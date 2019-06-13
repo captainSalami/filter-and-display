@@ -2,331 +2,2177 @@
   {
     "inf": "regalar",
     "translate":"to give a gift",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"regalo",
+      "tu":"regalas",
+      "usted":"regala",
+      "nosotros":"regalamos",
+      "ustedes":"regalan"
+    },
+    "preterite": {
+      "yo":"regalé",
+      "tu":"regalaste",
+      "usted":"regaló",
+      "nosotros":"regalamos",
+      "ustedes":"regalaron"
+    },
+    "imperfect": {
+      "yo":"regalaba",
+      "tu":"regalabas",
+      "usted":"regalaba",
+      "nosotros":"regalábamos",
+      "ustedes":"regalaban"
+    }
   },
   {
     "inf": "brindar",
     "translate":"to toast",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"brindo",
+      "tu":"brindas",
+      "usted":"brinda",
+      "nosotros":"brindamos",
+      "ustedes":"brindan"
+    },
+    "preterite": {
+      "yo":"brindé",
+      "tu":"brindaste",
+      "usted":"brindó",
+      "nosotros":"brindamos",
+      "ustedes":"brindaron"
+    },
+    "imperfect": {
+      "yo":"brindaba",
+      "tu":"brindabas",
+      "usted":"brindaba",
+      "nosotros":"brindábamos",
+      "ustedes":"brindaban"
+    }
   },
   {
     "inf": "cambiar",
     "translate":"to change",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"cambio",
+      "tu":"cambias",
+      "usted":"cambia",
+      "nosotros":"cambiamos",
+      "ustedes":"cambian"
+    },
+    "preterite": {
+      "yo":"cambié",
+      "tu":"cambiaste",
+      "usted":"cambió",
+      "nosotros":"cambiamos",
+      "ustedes":"cambiaron"
+    },
+    "imperfect": {
+      "yo":"cambiaba",
+      "tu":"cambiabas",
+      "usted":"cambiaba",
+      "nosotros":"cambiábamos",
+      "ustedes":"cambiaban"
+    }
   },
   {
     "inf": "jubilarse",
     "translate":"to retire",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"me jubilo",
+      "tu":"te jubilas",
+      "usted":"se jubila",
+      "nosotros":"nos jubilamos",
+      "ustedes":"se jubilan"
+    },
+    "preterite": {
+      "yo":"me jubilé",
+      "tu":"te jubilaste",
+      "usted":"se jubiló",
+      "nosotros":"nos jubilamos",
+      "ustedes":"se jubilaron"
+    },
+    "imperfect": {
+      "yo":"me jubilaba",
+      "tu":"te jubilabas",
+      "usted":"se jubilaba",
+      "nosotros":"nos jubilábamos",
+      "ustedes":"se jubilaban"
+    }
   },
   {
     "inf": "celebrar",
     "translate":"to celebrate",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"celebro",
+      "tu":"celebras",
+      "usted":"celebra",
+      "nosotros":"celebramos",
+      "ustedes":"celebran"
+    },
+    "preterite": {
+      "yo":"celebré",
+      "tu":"celebraste",
+      "usted":"celebró",
+      "nosotros":"celebramos",
+      "ustedes":"celebraron"
+    },
+    "imperfect": {
+      "yo":"celebraba",
+      "tu":"celebrabas",
+      "usted":"celebraba",
+      "nosotros":"celebrábamos",
+      "ustedes":"celebraban"
+    }
   },
   {
     "inf": "divertirse",
     "translate":"to have fun",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"me divierto",
+      "tu":"te diviertes",
+      "usted":"se divierte",
+      "nosotros":"nos divertimos",
+      "ustedes":"se divierten"
+    },
+    "preterite": {
+      "yo":"me divertí",
+      "tu":"te divertiste",
+      "usted":"se divirtió",
+      "nosotros":"nos divertimos",
+      "ustedes":"se divirtieron"
+    },
+    "imperfect": {
+      "yo":"me divertía",
+      "tu":"te divertías",
+      "usted":"se divertía",
+      "nosotros":"nos divertíamos",
+      "ustedes":"se divertían"
+    }
   },
   {
     "inf": "graduarse",
     "translate":"to graduate",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"me gradúo",
+      "tu":"te gradúas",
+      "usted":"se gradúa",
+      "nosotros":"nos graduamos",
+      "ustedes":"se gradúan"
+    },
+    "preterite": {
+      "yo":"me graduaba",
+      "tu":"te graduabas",
+      "usted":"se graduaba",
+      "nosotros":"nos graduamos",
+      "ustedes":"se graduaron"
+    },
+    "imperfect": {
+      "yo":"me gradué",
+      "tu":"te graduaste",
+      "usted":"se graduó",
+      "nosotros":"nos graduábamos",
+      "ustedes":"se graduaban"
+    }
   },
   {
     "inf": "reírse",
     "translate":"to laugh",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"me río",
+      "tu":"te ríes",
+      "usted":"se ríe",
+      "nosotros":"nos reímos",
+      "ustedes":"se ríen"
+    },
+    "preterite": {
+      "yo":"me reí",
+      "tu":"te reíste",
+      "usted":"se rio",
+      "nosotros":"nos reímos",
+      "ustedes":"se rieron"
+    },
+    "imperfect": {
+      "yo":"me reía",
+      "tu":"te reías",
+      "usted":"se reía",
+      "nosotros":"nos reíamos",
+      "ustedes":"se reían"
+    }
   },
   {
     "inf": "odiar",
     "translate":"to hate",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"odio",
+      "tu":"odias",
+      "usted":"odia",
+      "nosotros":"odiamos",
+      "ustedes":"odian"
+    },
+    "preterite": {
+      "yo":"odié",
+      "tu":"odiaste",
+      "usted":"odió",
+      "nosotros":"odiamos",
+      "ustedes":"odiaron"
+    },
+    "imperfect": {
+      "yo":"odiaba",
+      "tu":"odiabas",
+      "usted":"odiaba",
+      "nosotros":"odiábamos",
+      "ustedes":"odiaban"
+    }
   },
   {
     "inf":"pasar",
     "translate": "to happen",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"paso",
+      "tu":"pasas",
+      "usted":"pasa",
+      "nosotros":"pasamos",
+      "ustedes":"pasan"
+    },
+    "preterite": {
+      "yo":"pasé",
+      "tu":"pasaste",
+      "usted":"pasó",
+      "nosotros":"pasamos",
+      "ustedes":"pasaron"
+    },
+    "imperfect": {
+      "yo":"pasaba",
+      "tu":"pasabas",
+      "usted":"pasaba",
+      "nosotros":"pasábamos",
+      "ustedes":"pasaban"
+    }
   },
   {
     "inf":"relajarse",
     "translate": "to relax",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+        "yo":"me relajo",
+        "tu":"te relajas",
+        "usted":"se relaja",
+        "nosotros":"nos relajamos",
+        "ustedes":"se relajan"
+      },
+    "preterite": {
+      "yo":"me relajé",
+      "tu":"te relajaste",
+      "usted":"se relajó",
+      "nosotros":"nos relajamos",
+      "ustedes":"se relajaron"
+    },
+    "imperfect": {
+      "yo":"me relajaba",
+      "tu":"te relajabas",
+      "usted":"se relajaba",
+      "nosotros":"nos relajábamos",
+      "ustedes":"se relajaban"
+    }
   },
   {
     "inf":"nacer",
     "translate": "to be born",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"nazco",
+      "tu":"naces",
+      "usted":"nace",
+      "nosotros":"nacemos",
+      "ustedes":"nacen"
+    },
+    "preterite": {
+      "yo":"nací",
+      "tu":"naciste",
+      "usted":"nació",
+      "nosotros":"nacimos",
+      "ustedes":"nacieron"
+    },
+    "imperfect": {
+      "yo":"nacía",
+      "tu":"nacías",
+      "usted":"nacía",
+      "nosotros":"nacíamos",
+      "ustedes":"nacían"
+    }
   },
   {
     "inf":"sorprender",
     "translate": "to surprise",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"sorprendo",
+      "tu":"sorprendes",
+      "usted":"sorprende",
+      "nosotros":"sorprendemos",
+      "ustedes":"sorprenden"
+    },
+    "preterite": {
+      "yo":"sorprendí",
+      "tu":"sorprendiste",
+      "usted":"sorprendió",
+      "nosotros":"sorprendimos",
+      "ustedes":"sorprendieron"
+    },
+    "imperfect": {
+      "yo":"sorprendía",
+      "tu":"sorprendías",
+      "usted":"sorprendía",
+      "nosotros":"sorprendíamos",
+      "ustedes":"sorprendían"
+    }
   },
   {
     "inf":"sonreír",
     "translate": "to smile",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"sonrío",
+      "tu":"sonríes",
+      "usted":"sonríe",
+      "nosotros":"sonreímos",
+      "ustedes":"sonríen"
+    },
+    "preterite": {
+      "yo":"sonreí",
+      "tu":"sonreíste",
+      "usted":"sonrió",
+      "nosotros":"sonreímos",
+      "ustedes":"sonrieron"
+    },
+    "imperfect": {
+      "yo":"sonreía",
+      "tu":"sonreías",
+      "usted":"sonreía",
+      "nosotros":"sonreíamos",
+      "ustedes":"sonreían"
+    }
   },
   {
     "inf":"invitar",
     "translate": "to invite",
-    "present": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ],
-    "preterite": [
-      {
-        "yo":"",
-        "tu":"",
-        "usted":"",
-        "nosotros":"",
-        "ustedes":""
-      }
-    ]
+    "present": {
+      "yo":"invito",
+      "tu":"invitas",
+      "usted":"invita",
+      "nosotros":"invitamos",
+      "ustedes":"invitan"
+    },
+    "preterite": {
+      "yo":"invité",
+      "tu":"invitaste",
+      "usted":"invitó",
+      "nosotros":"invitamos",
+      "ustedes":"invitaron"
+    },
+    "imperfect": {
+      "yo":"invitaba",
+      "tu":"invitabas",
+      "usted":"invitaba",
+      "nosotros":"invitábamos",
+      "ustedes":"invitaban"
+    }
+  },
+  {
+    "inf":"ser",
+    "translate": "to be",
+    "present": {
+      "yo":"soy",
+      "tu":"eres",
+      "usted":"es",
+      "nosotros":"somos",
+      "ustedes":"son"
+    },
+    "preterite": {
+      "yo":"fui",
+      "tu":"fuiste",
+      "usted":"fue",
+      "nosotros":"fuimos",
+      "ustedes":"fueron"
+    },
+    "imperfect": {
+      "yo":"era",
+      "tu":"eras",
+      "usted":"era",
+      "nosotros":"éramos",
+      "ustedes":"eran"
+    }
+  },
+  {
+    "inf":"estar",
+    "translate": "to be",
+    "present": {
+      "yo":"estoy",
+      "tu":"estás",
+      "usted":"está",
+      "nosotros":"estamos",
+      "ustedes":"están"
+    },
+    "preterite": {
+      "yo":"estuve",
+      "tu":"estuviste",
+      "usted":"estuvo",
+      "nosotros":"estuvimos",
+      "ustedes":"estuvieron"
+    },
+    "imperfect": {
+      "yo":"estaba",
+      "tu":"estabas",
+      "usted":"estaba",
+      "nosotros":"estábamos",
+      "ustedes":"estaban"
+    }
+  },
+  {
+    "inf":"haber",
+    "translate": "to have",
+    "present": {
+      "yo":"he",
+      "tu":"has",
+      "usted":"hay",
+      "nosotros":"hemos",
+      "ustedes":"han"
+    },
+    "preterite": {
+      "yo":"hube",
+      "tu":"hubiste",
+      "usted":"hubo",
+      "nosotros":"hubimos",
+      "ustedes":"hubieron"
+    },
+    "imperfect": {
+      "yo":"había",
+      "tu":"habías",
+      "usted":"había",
+      "nosotros":"habíamos",
+      "ustedes":"habían"
+    }
+  },
+  {
+    "inf":"escoger",
+    "translate": "to choose",
+    "present": {
+      "yo":"escojo",
+      "tu":"escoges",
+      "usted":"escoge",
+      "nosotros":"escogemos",
+      "ustedes":"escogen"
+    },
+    "preterite": {
+      "yo":"escogí",
+      "tu":"escogiste",
+      "usted":"escogió",
+      "nosotros":"escogimos",
+      "ustedes":"escogieron"
+    },
+    "imperfect": {
+      "yo":"escogía",
+      "tu":"escogías",
+      "usted":"escogía",
+      "nosotros":"escogíamos",
+      "ustedes":"escogían"
+    }
+  },
+  {
+    "inf":"tener",
+    "translate": "to have",
+    "present": {
+      "yo":"tengo",
+      "tu":"tienes",
+      "usted":"tiene",
+      "nosotros":"tenemos",
+      "ustedes":"tienen"
+    },
+    "preterite": {
+      "yo":"tuve",
+      "tu":"tuviste",
+      "usted":"tuvo",
+      "nosotros":"tuvimos",
+      "ustedes":"tuvieron"
+    },
+    "imperfect": {
+      "yo":"tenía",
+      "tu":"tenías",
+      "usted":"tenía",
+      "nosotros":"teníamos",
+      "ustedes":"tenían"
+    }
+  },
+  {
+    "inf":"cantar",
+    "translate":"to sing",
+    "present": {
+      "yo":"canto",
+      "tu":"cantas",
+      "usted":"canta",
+      "nosotros":"cantamos",
+      "ustedes":"cantan"
+    },
+    "preterite": {
+      "yo":"canté",
+      "tu":"cantaste",
+      "usted":"cantó",
+      "nosotros":"cantamos",
+      "ustedes":"cantaron"
+    },
+    "imperfect": {
+      "yo":"cantaba",
+      "tu":"cantabas",
+      "usted":"cantaba",
+      "nosotros":"cantábamos",
+      "ustedes":"cantaban"
+    }
+  },
+  {
+    "inf":"beber",
+    "translate":"to drink",
+    "present": {
+      "yo":"bebo",
+      "tu":"bebes",
+      "usted":"bebe",
+      "nosotros":"bebemos",
+      "ustedes":"beben"
+    },
+    "preterite": {
+      "yo":"bebí",
+      "tu":"bebiste",
+      "usted":"bebió",
+      "nosotros":"bebimos",
+      "ustedes":"bebieron"
+    },
+    "imperfect": {
+      "yo":"bebía",
+      "tu":"bebías",
+      "usted":"bebía",
+      "nosotros":"bebíamos",
+      "ustedes":"bebían"
+    }
+  },
+  {
+    "inf":"escribir",
+    "translate":"to write",
+    "present": {
+      "yo":"escribo",
+      "tu":"escribes",
+      "usted":"escribe",
+      "nosotros":"escribimos",
+      "ustedes":"escriben"
+    },
+    "preterite": {
+      "yo":"escribí",
+      "tu":"escribiste",
+      "usted":"escribío",
+      "nosotros":"escribimos",
+      "ustedes":"escribieron"
+    },
+    "imperfect": {
+      "yo":"escribía",
+      "tu":"escribías",
+      "usted":"escribía",
+      "nosotros":"escribíamos",
+      "ustedes":"escribían"
+    }
+  },
+  {
+    "inf":"caer",
+    "translate":"to fall",
+    "present": {
+      "yo":"caigo",
+      "tu":"caes",
+      "usted":"cae",
+      "nosotros":"caemos",
+      "ustedes":"caen"
+    },
+    "preterite": {
+      "yo":"caí",
+      "tu":"caíste",
+      "usted":"cayó",
+      "nosotros":"caímos",
+      "ustedes":"cayeron"
+    },
+    "imperfect": {
+      "yo":"caía",
+      "tu":"caías",
+      "usted":"caía",
+      "nosotros":"caíamos",
+      "ustedes":"caían"
+    }
+  },
+  {
+    "inf":"dañar",
+    "translate":"to damage; to break down",
+    "present": {
+      "yo":"daño",
+      "tu":"dañas",
+      "usted":"daña",
+      "nosotros":"dañamos",
+      "ustedes":"dañan"
+    },
+    "preterite": {
+      "yo":"dañé",
+      "tu":"dañaste",
+      "usted":"dañó",
+      "nosotros":"dañamos",
+      "ustedes":"dañaron"
+    },
+    "imperfect": {
+      "yo":"dañaba",
+      "tu":"dañabas",
+      "usted":"dañaba",
+      "nosotros":"dañábamos",
+      "ustedes":"dañaban"
+    }
+  },
+  {
+    "inf":"doler",
+    "translate":"to hurt",
+    "present": {
+      "yo":"duelo",
+      "tu":"dueles",
+      "usted":"duele",
+      "nosotros":"dolemos",
+      "ustedes":"duelen"
+    },
+    "preterite": {
+      "yo":"dolí",
+      "tu":"doliste",
+      "usted":"dolió",
+      "nosotros":"dolimos",
+      "ustedes":"dolieron"
+    },
+    "imperfect": {
+      "yo":"dolía",
+      "tu":"dolías",
+      "usted":"dolía",
+      "nosotros":"dolíamos",
+      "ustedes":"dolían"
+    }
+  },
+  {
+    "inf":"enfermar",
+    "translate":"to get sick",
+    "present": {
+      "yo":"enfermo",
+      "tu":"enfermas",
+      "usted":"enferma",
+      "nosotros":"enfermamos",
+      "ustedes":"enferman"
+    },
+    "preterite": {
+      "yo":"enfermé",
+      "tu":"enfermaste",
+      "usted":"enfermó",
+      "nosotros":"enfermamos",
+      "ustedes":"enfermaron"
+    },
+    "imperfect": {
+      "yo":"enfermaba",
+      "tu":"enfermabas",
+      "usted":"enfermaba",
+      "nosotros":"enfermábamos",
+      "ustedes":"enfermaban"
+    }
+  },
+  {
+    "inf":"olvidar",
+    "translate":"to forget",
+    "present": {
+      "yo":"olvido",
+      "tu":"olvidas",
+      "usted":"olvida",
+      "nosotros":"olvidamos",
+      "ustedes":"olvidan"
+    },
+    "preterite": {
+      "yo":"olvidé",
+      "tu":"olvidaste",
+      "usted":"olvidó",
+      "nosotros":"olvidamos",
+      "ustedes":"olvidaron"
+    },
+    "imperfect": {
+      "yo":"olvidaba",
+      "tu":"olvidabas",
+      "usted":"olvidaba",
+      "nosotros":"olvidábamos",
+      "ustedes":"olvidaban"
+    }
+  },
+  {
+    "inf":"recetar",
+    "translate":"to prescribe",
+    "present": {
+      "yo":"receto",
+      "tu":"recetas",
+      "usted":"receta",
+      "nosotros":"recetamos",
+      "ustedes":"recetan"
+    },
+    "preterite": {
+      "yo":"receté",
+      "tu":"recetaste",
+      "usted":"recetó",
+      "nosotros":"recetamos",
+      "ustedes":"recetaron"
+    },
+    "imperfect": {
+      "yo":"recetaba",
+      "tu":"recetabas",
+      "usted":"recetaba",
+      "nosotros":"recetábamos",
+      "ustedes":"recetaban"
+    }
+  },
+  {
+    "inf":"romper",
+    "translate":"to break",
+    "present": {
+      "yo":"rompo",
+      "tu":"rompes",
+      "usted":"rompe",
+      "nosotros":"rompemos",
+      "ustedes":"rompen"
+    },
+    "preterite": {
+      "yo":"rompí",
+      "tu":"rompiste",
+      "usted":"rompió",
+      "nosotros":"rompimos",
+      "ustedes":"rompieron"
+    },
+    "imperfect": {
+      "yo":"rompía",
+      "tu":"rompías",
+      "usted":"rompía",
+      "nosotros":"rompíamos",
+      "ustedes":"rompían"
+    }
+  },
+  {
+    "inf":"toser",
+    "translate":"to cough",
+    "present": {
+      "yo":"toso",
+      "tu":"toses",
+      "usted":"tose",
+      "nosotros":"tosemos",
+      "ustedes":"tosen"
+    },
+    "preterite": {
+      "yo":"tosí",
+      "tu":"tosiste",
+      "usted":"tosió",
+      "nosotros":"tosimos",
+      "ustedes":"tosieron"
+    },
+    "imperfect": {
+      "yo":"tosía",
+      "tu":"tosías",
+      "usted":"tosía",
+      "nosotros":"tosíamos",
+      "ustedes":"tosían"
+    }
+  },
+  {
+    "inf":"volver",
+    "translate":"to return",
+    "present": {
+      "yo":"vuelvo",
+      "tu":"vuelves",
+      "usted":"vuelve",
+      "nosotros":"volvemos",
+      "ustedes":"vuelven"
+    },
+    "preterite": {
+      "yo":"volví",
+      "tu":"volviste",
+      "usted":"volvió",
+      "nosotros":"volvimos",
+      "ustedes":"volvieron"
+    },
+    "imperfect": {
+      "yo":"volvía",
+      "tu":"volvías",
+      "usted":"volvía",
+      "nosotros":"volvíamos",
+      "ustedes":"volvían"
+    }
+  },
+  {
+    "inf":"perder",
+    "translate":"to lose",
+    "present": {
+      "yo":"pierdo",
+      "tu":"pierdes",
+      "usted":"pierde",
+      "nosotros":"perdemos",
+      "ustedes":"pierden"
+    },
+    "preterite": {
+      "yo":"perdí",
+      "tu":"perdiste",
+      "usted":"perdió",
+      "nosotros":"perdimos",
+      "ustedes":"perdieron"
+    },
+    "imperfect": {
+      "yo":"perdía",
+      "tu":"perdías",
+      "usted":"perdía",
+      "nosotros":"perdíamos",
+      "ustedes":"perdían"
+    }
+  },
+  {
+    "inf":"buscar",
+    "translate":"to look for",
+    "present": {
+      "yo":"busco",
+      "tu":"buscas",
+      "usted":"busca",
+      "nosotros":"buscamos",
+      "ustedes":"buscan"
+    },
+    "preterite": {
+      "yo":"busqué",
+      "tu":"buscaste",
+      "usted":"buscó",
+      "nosotros":"buscamos",
+      "ustedes":"buscaron"
+    },
+    "imperfect": {
+      "yo":"buscaba",
+      "tu":"buscabas",
+      "usted":"buscaba",
+      "nosotros":"buscábamos",
+      "ustedes":"buscaban"
+    }
+  },
+  {
+    "inf":"preocupar",
+    "translate":"to worry",
+    "present": {
+      "yo":"preocupo",
+      "tu":"preocupas",
+      "usted":"preocupa",
+      "nosotros":"preocupamos",
+      "ustedes":"preocupan"
+    },
+    "preterite": {
+      "yo":"preocupé",
+      "tu":"preocupaste",
+      "usted":"preocupó",
+      "nosotros":"preocupamos",
+      "ustedes":"preocuparon"
+    },
+    "imperfect": {
+      "yo":"preocupaba",
+      "tu":"preocupabas",
+      "usted":"preocupaba",
+      "nosotros":"preocupábamos",
+      "ustedes":"preocupaban"
+    }
+  },
+  {
+    "inf":"hacer",
+    "translate":"to do",
+    "present": {
+      "yo":"hago",
+      "tu":"haces",
+      "usted":"hace",
+      "nosotros":"hacemos",
+      "ustedes":"hacen"
+    },
+    "preterite": {
+      "yo":"hice",
+      "tu":"hiciste",
+      "usted":"hizo",
+      "nosotros":"hicimos",
+      "ustedes":"hicieron"
+    },
+    "imperfect": {
+      "yo":"hacía",
+      "tu":"hacías",
+      "usted":"hacía",
+      "nosotros":"hacíamos",
+      "ustedes":"hacían"
+    }
+  },
+  {
+    "inf":"preferir",
+    "translate":"to prefer",
+    "present": {
+      "yo":"prefiero",
+      "tu":"prefieres",
+      "usted":"prefiere",
+      "nosotros":"preferimos",
+      "ustedes":"prefieren"
+    },
+    "preterite": {
+      "yo":"preferí",
+      "tu":"preferiste",
+      "usted":"prefirió",
+      "nosotros":"preferimos",
+      "ustedes":"prefirieron"
+    },
+    "imperfect": {
+      "yo":"prefería",
+      "tu":"preferías",
+      "usted":"prefería",
+      "nosotros":"preferíamos",
+      "ustedes":"preferían"
+    }
+  },
+  {
+    "inf":"llegar",
+    "translate":"to arrive",
+    "present": {
+      "yo":"llego",
+      "tu":"llegas",
+      "usted":"llega",
+      "nosotros":"llegamos",
+      "ustedes":"llegan"
+    },
+    "preterite": {
+      "yo":"llegué",
+      "tu":"llegaste",
+      "usted":"llegó",
+      "nosotros":"llegamos",
+      "ustedes":"llegaron"
+    },
+    "imperfect": {
+      "yo":"llegaba",
+      "tu":"llegabas",
+      "usted":"llegaba",
+      "nosotros":"llegábamos",
+      "ustedes":"llegaban"
+    }
+  },
+  {
+    "inf":"llevar",
+    "translate":"to take",
+    "present": {
+      "yo":"llevo",
+      "tu":"llevas",
+      "usted":"lleva",
+      "nosotros":"llevamos",
+      "ustedes":"llevan"
+    },
+    "preterite": {
+      "yo":"llevé",
+      "tu":"llevaste",
+      "usted":"llevó",
+      "nosotros":"llevamos",
+      "ustedes":"llevaron"
+    },
+    "imperfect": {
+      "yo":"llevaba",
+      "tu":"llevabas",
+      "usted":"llevaba",
+      "nosotros":"llevábamos",
+      "ustedes":"llevaban"
+    }
+  },
+  {
+    "inf":"poder",
+    "translate":"to be able to",
+    "present": {
+      "yo":"puedo",
+      "tu":"puedes",
+      "usted":"puede",
+      "nosotros":"podemos",
+      "ustedes":"pueden"
+    },
+    "preterite": {
+      "yo":"pude",
+      "tu":"pudiste",
+      "usted":"pudo",
+      "nosotros":"pudimos",
+      "ustedes":"pudieron"
+    },
+    "imperfect": {
+      "yo":"podía",
+      "tu":"podías",
+      "usted":"podía",
+      "nosotros":"podíamos",
+      "ustedes":"podían"
+    }
+  },
+  {
+    "inf":"poner",
+    "translate":"to put",
+    "present": {
+      "yo":"pongo",
+      "tu":"pones",
+      "usted":"pone",
+      "nosotros":"ponemos",
+      "ustedes":"ponen"
+    },
+    "preterite": {
+      "yo":"puse",
+      "tu":"pusiste",
+      "usted":"puso",
+      "nosotros":"pusimos",
+      "ustedes":"pusieron"
+    },
+    "imperfect": {
+      "yo":"ponía",
+      "tu":"ponías",
+      "usted":"ponía",
+      "nosotros":"poníamos",
+      "ustedes":"ponían"
+    }
+  },
+  {
+    "inf":"llamar",
+    "translate":"to call",
+    "present": {
+      "yo":"llamo",
+      "tu":"llamas",
+      "usted":"llama",
+      "nosotros":"llamamos",
+      "ustedes":"llaman"
+    },
+    "preterite": {
+      "yo":"llamé",
+      "tu":"llamaste",
+      "usted":"llamó",
+      "nosotros":"llamamos",
+      "ustedes":"llamaron"
+    },
+    "imperfect": {
+      "yo":"llamaba",
+      "tu":"llamabas",
+      "usted":"llamaba",
+      "nosotros":"llamábamos",
+      "ustedes":"llamaban"
+    }
+  },
+  {
+    "inf":"decir",
+    "translate":"to say; to tell",
+    "present": {
+      "yo":"digo",
+      "tu":"dices",
+      "usted":"dice",
+      "nosotros":"decimos",
+      "ustedes":"dicen"
+    },
+    "preterite": {
+      "yo":"dije",
+      "tu":"dijiste",
+      "usted":"dijo",
+      "nosotros":"dijimos",
+      "ustedes":"dijeron"
+    },
+    "imperfect": {
+      "yo":"decía",
+      "tu":"decías",
+      "usted":"decía",
+      "nosotros":"decíamos",
+      "ustedes":"decían"
+    }
+  },
+  {
+    "inf":"ver",
+    "translate":"to see; to watch",
+    "present": {
+      "yo":"veo",
+      "tu":"ves",
+      "usted":"ve",
+      "nosotros":"vemos",
+      "ustedes":"ven"
+    },
+    "preterite": {
+      "yo":"vi",
+      "tu":"viste",
+      "usted":"vio",
+      "nosotros":"vimos",
+      "ustedes":"vieron"
+    },
+    "imperfect": {
+      "yo":"veía",
+      "tu":"veías",
+      "usted":"veía",
+      "nosotros":"veíamos",
+      "ustedes":"veían"
+    }
+  },
+  {
+    "inf":"llover",
+    "translate":"to rain",
+    "present": {
+      "yo":"lluevo",
+      "tu":"llueves",
+      "usted":"llueve",
+      "nosotros":"llovemos",
+      "ustedes":"llueven"
+    },
+    "preterite": {
+      "yo":"lloví",
+      "tu":"lloviste",
+      "usted":"llovió",
+      "nosotros":"llovimos",
+      "ustedes":"llovieron"
+    },
+    "imperfect": {
+      "yo":"llovía",
+      "tu":"llovías",
+      "usted":"llovía",
+      "nosotros":"llovíamos",
+      "ustedes":"llovían"
+    }
+  },
+  {
+    "inf":"conocer",
+    "translate":"to know or be familiar/acquainted with a person, place, or thing",
+    "present": {
+      "yo":"conozco",
+      "tu":"conoces",
+      "usted":"conoce",
+      "nosotros":"conocemos",
+      "ustedes":"conocen"
+    },
+    "preterite": {
+      "yo":"conocí",
+      "tu":"conociste",
+      "usted":"conoció",
+      "nosotros":"conocimos",
+      "ustedes":"conocieron"
+    },
+    "imperfect": {
+      "yo":"conocía",
+      "tu":"conocías",
+      "usted":"conocía",
+      "nosotros":"conocíamos",
+      "ustedes":"conocían"
+    }
+  },
+  {
+    "inf":"servir",
+    "translate":"to serve",
+    "present": {
+      "yo":"sirvo",
+      "tu":"sirves",
+      "usted":"sirve",
+      "nosotros":"servimos",
+      "ustedes":"sirven"
+    },
+    "preterite": {
+      "yo":"serví",
+      "tu":"serviste",
+      "usted":"sirvió",
+      "nosotros":"servimos",
+      "ustedes":"sirvieron"
+    },
+    "imperfect": {
+      "yo":"servía",
+      "tu":"servías",
+      "usted":"servía",
+      "nosotros":"servíamos",
+      "ustedes":"servían"
+    }
+  },
+  {
+    "inf":"sufrir",
+    "translate":"to suffer",
+    "present": {
+      "yo":"sufro",
+      "tu":"sufres",
+      "usted":"sufre",
+      "nosotros":"sufrimos",
+      "ustedes":"sufren"
+    },
+    "preterite": {
+      "yo":"sufrí",
+      "tu":"sufriste",
+      "usted":"sufrió",
+      "nosotros":"sufrimos",
+      "ustedes":"sufrieron"
+    },
+    "imperfect": {
+      "yo":"sufría",
+      "tu":"sufrías",
+      "usted":"sufría",
+      "nosotros":"sufríamos",
+      "ustedes":"sufrían"
+    }
+  },
+  {
+    "inf":"gustar",
+    "translate":"to like",
+    "present": {
+      "yo":"gusto",
+      "tu":"gustas",
+      "usted":"gusta",
+      "nosotros":"gustamos",
+      "ustedes":"gustan"
+    },
+    "preterite": {
+      "yo":"gusté",
+      "tu":"gustaste",
+      "usted":"gustó",
+      "nosotros":"gustamos",
+      "ustedes":"gustaron"
+    },
+    "imperfect": {
+      "yo":"gustaba",
+      "tu":"gustabas",
+      "usted":"gustaba",
+      "nosotros":"gustábamos",
+      "ustedes":"gustaban"
+    }
+  },
+  {
+    "inf":"dormir",
+    "translate":"to sleep",
+    "present": {
+      "yo":"duermo", 
+      "tu":"duermes", 
+      "usted":"duerme", 
+      "nosotros":"dormimos", 
+      "ustedes":"duermen"
+    },
+    "preterite": {
+      "yo":"dormí", 
+      "tu":"dormiste", 
+      "usted":"durmió", 
+      "nosotros":"dormimos", 
+      "vosotros":"dormisteis", 
+      "ustedes":"durmieron"
+    },
+    "imperfect": {
+      "yo":"dormía",
+      "tu":"dormías",
+      "usted":"dormía",
+      "nosotros":"dormíamos",
+      "ustedes":"dormían"
+    }
+  },
+  {
+    "inf":"pedir",
+    "translate":"to ask for; to order",
+    "present": {
+      "yo":"pido", 
+      "tu":"pides", 
+      "usted":"pide", 
+      "nosotros":"pedimos", 
+      "ustedes":"piden"
+    },
+    "preterite": {
+      "yo":"pedí", 
+      "tu":"pediste", 
+      "usted":"pedió", 
+      "nosotros":"pedimos", 
+      "ustedes":"pidieron"
+    },
+    "imperfect": {
+      "yo":"pedía",
+      "tu":"pedías",
+      "usted":"pedía",
+      "nosotros":"pedíamos",
+      "ustedes":"pedían"
+    }
+  },
+  {
+    "inf":"prestar",
+    "translate":"to lend",
+    "present": {
+      "yo":"presto", 
+      "tu":"prestas", 
+      "usted":"presta", 
+      "nosotros":"prestamos", 
+      "ustedes":"prestan"
+    },
+    "preterite": {
+      "yo":"presté", 
+      "tu":"prestaste", 
+      "usted":"prestó", 
+      "nosotros":"prestamos", 
+      "ustedes":"prestaron"
+    },
+    "imperfect": {
+      "yo":"prestaba",
+      "tu":"prestabas",
+      "usted":"prestaba",
+      "nosotros":"prestábamos",
+      "ustedes":"prestaban"
+    }
+  },
+  {
+    "inf":"comprar",
+    "translate":"to buy",
+    "present": {
+      "yo":"compro", 
+      "tu":"compras", 
+      "usted":"compra", 
+      "nosotros":"compramos", 
+      "ustedes":"compran"
+    },
+    "preterite": {
+      "yo":"compré", 
+      "tu":"compraste", 
+      "usted":"compró", 
+      "nosotros":"compramos", 
+      "ustedes":"compraron"
+    },
+    "imperfect": {
+      "yo":"compraba",
+      "tu":"comprabas",
+      "usted":"compraba",
+      "nosotros":"comprábamos",
+      "ustedes":"compraban"
+    }
+  },
+  {
+    "inf":"conseguir",
+    "translate":"to get",
+    "present": {
+      "yo":"consigo", 
+      "tu":"consigues", 
+      "usted":"consigue", 
+      "nosotros":"conseguimos", 
+      "ustedes":"consiguieron"
+    },
+    "preterite": {
+      "yo":"conseguí", 
+      "tu":"conseguiste", 
+      "usted":"consiguió", 
+      "nosotros":"conseguimos", 
+      "ustedes":"consiguieron"
+    },
+    "imperfect": {
+      "yo":"conseguía",
+      "tu":"conseguías",
+      "usted":"conseguía",
+      "nosotros":"conseguíamos",
+      "ustedes":"conseguían"
+    }
+  },
+  {
+    "inf":"comer",
+    "translate":"to eat",
+    "present": {
+      "yo":"como", 
+      "tu":"comes", 
+      "usted":"come", 
+      "nosotros":"comemos", 
+      "ustedes":"comen"
+    },
+    "preterite": {
+      "yo":"comí", 
+      "tu":"comiste", 
+      "usted":"comió", 
+      "nosotros":"comimos", 
+      "ustedes":"comieron"
+    },
+    "imperfect": {
+      "yo":"comía",
+      "tu":"comías",
+      "usted":"comía",
+      "nosotros":"comíamos",
+      "ustedes":"comían"
+    }
+  },
+  {
+    "inf":"correr",
+    "translate":"to run",
+    "present": {
+      "yo":"corro", 
+      "tu":"corres",
+      "usted":"corre",
+      "nosotros":"corremos", 
+      "ustedes":"corren"
+    },
+    "preterite": {
+      "yo":"corrí",
+      "tu":"corriste", 
+      "usted":"corrió", 
+      "nosotros":"corrimos", 
+      "ustedes":"corrieron"
+    },
+    "imperfect": {
+      "yo":"corría",
+      "tu":"corrías",
+      "usted":"corría",
+      "nosotros":"corríamos",
+      "ustedes":"corrían"
+    }
+  },
+  {
+    "inf":"conducir",
+    "translate":"to drive",
+    "present": {
+      "yo":"conduzco", 
+      "tu":"conduces",
+      "usted":"conduce",
+      "nosotros":"conducimos", 
+      "ustedes":"conducen"
+    },
+    "preterite": {
+      "yo":"conduje",
+      "tu":"condujiste", 
+      "usted":"condujo", 
+      "nosotros":"condujimos", 
+      "ustedes":"condujeron"
+    },
+    "imperfect": {
+      "yo":"conducía",
+      "tu":"conducías",
+      "usted":"conducía",
+      "nosotros":"conducíamos",
+      "ustedes":"conducían"
+    }
+  },
+  {
+    "inf":"traducir",
+    "translate":"to translate",
+    "present": {
+      "yo":"traduzco", 
+      "tu":"traduces",
+      "usted":"traduce",
+      "nosotros":"traducimos", 
+      "ustedes":"traducen"
+    },
+    "preterite": {
+      "yo":"traduje",
+      "tu":"tradujiste", 
+      "usted":"tradujo", 
+      "nosotros":"tradujimos", 
+      "ustedes":"tradujeron"
+    },
+    "imperfect": {
+      "yo":"traducía",
+      "tu":"traducías",
+      "usted":"traducía",
+      "nosotros":"traducíamos",
+      "ustedes":"traducían"
+    }
+  },
+  {
+    "inf":"mostrar",
+    "translate":"to show",
+    "present": {
+      "yo":"muestro", 
+      "tu":"muestras",
+      "usted":"muestra",
+      "nosotros":"mostramos", 
+      "ustedes":"muestran"
+    },
+    "preterite": {
+      "yo":"mostré",
+      "tu":"mostraste", 
+      "usted":"mostró", 
+      "nosotros":"mostramos", 
+      "ustedes":"mostraron"
+    },
+    "imperfect": {
+      "yo":"mostraba",
+      "tu":"mostrabas",
+      "usted":"mostraba",
+      "nosotros":"mostrábamos",
+      "ustedes":"mostraban"
+    }
+  },
+  {
+    "inf":"gastar",
+    "translate":"to spend; to use",
+    "present": {
+      "yo":"gasto", 
+      "tu":"gastas",
+      "usted":"gasta",
+      "nosotros":"gastamos", 
+      "ustedes":"gastan"
+    },
+    "preterite": {
+      "yo":"gasté",
+      "tu":"gastaste", 
+      "usted":"gastó", 
+      "nosotros":"gastamos", 
+      "ustedes":"gastaron"
+    },
+    "imperfect": {
+      "yo":"gastaba",
+      "tu":"gastabas",
+      "usted":"gastaba",
+      "nosotros":"gastábamos",
+      "ustedes":"gastaban"
+    }
+  },
+  {
+    "inf":"lavarse",
+    "translate":"to wash (oneself)",
+    "present": {
+      "yo":"me lavo", 
+      "tu":"te lavas",
+      "usted":"se lava",
+      "nosotros":"nos lavamos", 
+      "ustedes":"se lavan"
+    },
+    "preterite": {
+      "yo":"me lavé",
+      "tu":"te lavaste", 
+      "usted":"se lavó", 
+      "nosotros":"nos lavamos", 
+      "ustedes":"se lavaron"
+    },
+    "imperfect": {
+      "yo":"me lavaba",
+      "tu":"te lavabas",
+      "usted":"se lavaba",
+      "nosotros":"nos lavábamos",
+      "ustedes":"se lavaban"
+    }
+  },
+  {
+    "inf":"levantarse",
+    "translate":"to get up",
+    "present": {
+      "yo":"me levanto", 
+      "tu":"te levantas",
+      "usted":"se levanta",
+      "nosotros":"nos levantamos", 
+      "ustedes":"se levantan"
+    },
+    "preterite": {
+      "yo":"me levanté",
+      "tu":"te levantaste", 
+      "usted":"se levantó", 
+      "nosotros":"nos levantamos", 
+      "ustedes":"se levantaron"
+    },
+    "imperfect": {
+      "yo":"me levantaba",
+      "tu":"te levantabas",
+      "usted":"se levantaba",
+      "nosotros":"nos levantábamos",
+      "ustedes":"se levantaban"
+    }
+  },
+  {
+    "inf":"terminar",
+    "translate":"to end; to finish",
+    "present": {
+      "yo":"termino", 
+      "tu":"terminas",
+      "usted":"termina",
+      "nosotros":"terminamos", 
+      "ustedes":"terminan"
+    },
+    "preterite": {
+      "yo":"terminé",
+      "tu":"terminaste", 
+      "usted":"terminó", 
+      "nosotros":"terminamos", 
+      "ustedes":"terminaron"
+    },
+    "imperfect": {
+      "yo":"terminaba",
+      "tu":"terminabas",
+      "usted":"terminaba",
+      "nosotros":"terminábamos",
+      "ustedes":"terminaban"
+    }
+  },
+  {
+    "inf":"saber",
+    "translate":"to know a fact or pieces of info; to know how to do something",
+    "present": {
+      "yo":"sé", 
+      "tu":"sabes",
+      "usted":"sabe",
+      "nosotros":"sabemos", 
+      "ustedes":"saben"
+    },
+    "preterite": {
+      "yo":"supe",
+      "tu":"supiste", 
+      "usted":"supo", 
+      "nosotros":"supimos", 
+      "ustedes":"supieron"
+    },
+    "imperfect": {
+      "yo":"sabía",
+      "tu":"sabías",
+      "usted":"sabía",
+      "nosotros":"sabíamos",
+      "ustedes":"sabían"
+    }
+  },
+  {
+    "inf":"venir",
+    "translate":"to come",
+    "present": {
+      "yo":"vengo", 
+      "tu":"vienes",
+      "usted":"viene",
+      "nosotros":"venimos", 
+      "ustedes":"vienen"
+    },
+    "preterite": {
+      "yo":"vine",
+      "tu":"viniste", 
+      "usted":"vino", 
+      "nosotros":"vinimos", 
+      "ustedes":"vinieron"
+    },
+    "imperfect": {
+      "yo":"venía",
+      "tu":"venías",
+      "usted":"venía",
+      "nosotros":"veníamos",
+      "ustedes":"venían"
+    }
+  },
+  {
+    "inf":"vender",
+    "translate":"to sell",
+    "present": {
+      "yo":"vendo", 
+      "tu":"vendes",
+      "usted":"vende",
+      "nosotros":"vendemos", 
+      "ustedes":"venden"
+    },
+    "preterite": {
+      "yo":"vendí",
+      "tu":"vendiste", 
+      "usted":"vendió", 
+      "nosotros":"vendimos", 
+      "ustedes":"vendieron"
+    },
+    "imperfect": {
+      "yo":"vendía",
+      "tu":"vendías",
+      "usted":"vendía",
+      "nosotros":"vendíamos",
+      "ustedes":"vendían"
+    }
+  },
+  {
+    "inf":"encantar",
+    "translate":"to love",
+    "present": {
+      "yo":"encanto", 
+      "tu":"encantas",
+      "usted":"encanta",
+      "nosotros":"encantamos",
+      "ustedes":"encantan"
+    },
+    "preterite": {
+      "yo":"encanté",
+      "tu":"encantaste", 
+      "usted":"encantó", 
+      "nosotros":"encantamos",
+      "ustedes":"encantaron"
+    },
+    "imperfect": {
+      "yo":"encantaba",
+      "tu":"encantabas",
+      "usted":"encantaba",
+      "nosotros":"encantábamos",
+      "ustedes":"encantaban"
+    }
+  },
+  {
+    "inf":"comenzar",
+    "translate":"to begin; to start",
+    "present": {
+      "yo":"comienzo", 
+      "tu":"comienzas",
+      "usted":"comienza",
+      "nosotros":"comenzamos",
+      "ustedes":"comienzan"
+    },
+    "preterite": {
+      "yo":"comencé",
+      "tu":"comenzaste", 
+      "usted":"comenzó", 
+      "nosotros":"comenzamos",
+      "ustedes":"comenzaron"
+    },
+    "imperfect": {
+      "yo":"comenzaba",
+      "tu":"comenzabas",
+      "usted":"comenzaba",
+      "nosotros":"comenzábamos",
+      "ustedes":"comenzaban"
+    }
+  },
+  {
+    "inf":"aburrir",
+    "translate":"to bore",
+    "present": {
+      "yo":"aburro", 
+      "tu":"aburres",
+      "usted":"aburre",
+      "nosotros":"aburrimos",
+      "ustedes":"aburren"
+    },
+    "preterite": {
+      "yo":"aburrí",
+      "tu":"aburriste", 
+      "usted":"aburrió", 
+      "nosotros":"aburrimos",
+      "ustedes":"aburrieron"
+    },
+    "imperfect": {
+      "yo":"aburría",
+      "tu":"aburrías",
+      "usted":"aburría",
+      "nosotros":"aburríamos",
+      "ustedes":"aburrían"
+    }
+  },
+  {
+    "inf":"compartir",
+    "translate":"to share",
+    "present": {
+      "yo":"comparto", 
+      "tu":"compartes",
+      "usted":"comparte",
+      "nosotros":"compartimos",
+      "ustedes":"comparten"
+    },
+    "preterite": {
+      "yo":"compartí",
+      "tu":"compartiste", 
+      "usted":"compartió", 
+      "nosotros":"compartimos",
+      "ustedes":"compartieron"
+    },
+    "imperfect": {
+      "yo":"compartía",
+      "tu":"compartías",
+      "usted":"compartía",
+      "nosotros":"compartíamos",
+      "ustedes":"compartían"
+    }
+  },
+  {
+    "inf":"morir",
+    "translate":"to die",
+    "present": {
+      "yo":"muero", 
+      "tu":"mueres",
+      "usted":"muere",
+      "nosotros":"morimos",
+      "ustedes":"mueren"
+    },
+    "preterite": {
+      "yo":"morí",
+      "tu":"moriste", 
+      "usted":"murió", 
+      "nosotros":"morimos",
+      "ustedes":"murieron"
+    },
+    "imperfect": {
+      "yo":"moría",
+      "tu":"morías",
+      "usted":"moría",
+      "nosotros":"moríamos",
+      "ustedes":"morían"
+    }
+  },
+  {
+    "inf":"leer",
+    "translate":"to read",
+    "present": {
+      "yo":"leo", 
+      "tu":"lees",
+      "usted":"lee",
+      "nosotros":"leemos",
+      "ustedes":"leen"
+    },
+    "preterite": {
+      "yo":"leí",
+      "tu":"leíste", 
+      "usted":"leyó", 
+      "nosotros":"leímos",
+      "ustedes":"leyeron"
+    },
+    "imperfect": {
+      "yo":"leía",
+      "tu":"leías",
+      "usted":"leía",
+      "nosotros":"leíamos",
+      "ustedes":"leían"
+    }
+  },
+  {
+    "inf":"creer",
+    "translate":"to believe",
+    "present": {
+      "yo":"creo", 
+      "tu":"crees",
+      "usted":"cree",
+      "nosotros":"creemos",
+      "ustedes":"creen"
+    },
+    "preterite": {
+      "yo":"creí",
+      "tu":"creíste", 
+      "usted":"creyó", 
+      "nosotros":"creímos",
+      "ustedes":"creyeron"
+    },
+    "imperfect": {
+      "yo":"creía",
+      "tu":"creías",
+      "usted":"creía",
+      "nosotros":"creíamos",
+      "ustedes":"creían"
+    }
+  },
+  {
+    "inf":"ir",
+    "translate":"to go",
+    "present": {
+      "yo":"voy", 
+      "tu":"vas",
+      "usted":"va",
+      "nosotros":"vamos",
+      "ustedes":"van"
+    },
+    "preterite": {
+      "yo":"fui",
+      "tu":"fuiste",
+      "usted":"fue",
+      "nosotros":"fuimos",
+      "ustedes":"fueron"
+    },
+    "imperfect": {
+      "yo":"iba",
+      "tu":"ibas",
+      "usted":"iba",
+      "nosotros":"íbamos",
+      "ustedes":"iban"
+    }
+  },
+  {
+    "inf":"importar",
+    "translate":"to be important to; to matter",
+    "present": {
+      "yo":"importo", 
+      "tu":"importas",
+      "usted":"importa",
+      "nosotros":"importamos",
+      "ustedes":"importan"
+    },
+    "preterite": {
+      "yo":"importé",
+      "tu":"importaste",
+      "usted":"importó",
+      "nosotros":"importamos",
+      "ustedes":"importaron"
+    },
+    "imperfect": {
+      "yo":"importaba",
+      "tu":"importabas",
+      "usted":"importaba",
+      "nosotros":"importábamos",
+      "ustedes":"importaban"
+    }
+  },
+  {
+    "inf":"quedar",
+    "translate":"to be left over; to fit (clothing)",
+    "present": {
+      "yo":"quedo", 
+      "tu":"quedas",
+      "usted":"queda",
+      "nosotros":"quedamos",
+      "ustedes":"quedan"
+    },
+    "preterite": {
+      "yo":"quedé",
+      "tu":"quedaste",
+      "usted":"quedó",
+      "nosotros":"quedamos",
+      "ustedes":"quedaron"
+    },
+    "imperfect": {
+      "yo":"quedaba",
+      "tu":"quedabas",
+      "usted":"quedaba",
+      "nosotros":"quedábamos",
+      "ustedes":"quedaban"
+    }
+  },
+  {
+    "inf":"querer",
+    "translate":"to want; to love",
+    "present": {
+      "yo":"quiero", 
+      "tu":"quieres",
+      "usted":"quiere",
+      "nosotros":"queremos",
+      "ustedes":"quieren"
+    },
+    "preterite": {
+      "yo":"quise",
+      "tu":"quisiste",
+      "usted":"quiso",
+      "nosotros":"quisimos",
+      "ustedes":"quisieron"
+    },
+    "imperfect": {
+      "yo":"quería",
+      "tu":"querías",
+      "usted":"quería",
+      "nosotros":"queríamos",
+      "ustedes":"querían"
+    }
+  },
+  {
+    "inf":"molestar",
+    "translate":"to bother",
+    "present": {
+      "yo":"molesto", 
+      "tu":"molestas",
+      "usted":"molesta",
+      "nosotros":"molestamos",
+      "ustedes":"molestan"
+    },
+    "preterite": {
+      "yo":"molesté",
+      "tu":"molestaste",
+      "usted":"molestó",
+      "nosotros":"molestamos",
+      "ustedes":"molestaron"
+    },
+    "imperfect": {
+      "yo":"molestaba",
+      "tu":"molestabas",
+      "usted":"molestaba",
+      "nosotros":"molestábamos",
+      "ustedes":"molestaban"
+    }
+  },
+  {
+    "inf":"pensar",
+    "translate":"to think",
+    "present": {
+      "yo":"pienso", 
+      "tu":"piensas",
+      "usted":"piensa",
+      "nosotros":"pensamos",
+      "ustedes":"piensan"
+    },
+    "preterite": {
+      "yo":"pensé",
+      "tu":"pensaste",
+      "usted":"pensó",
+      "nosotros":"pensamos",
+      "ustedes":"pensaron"
+    },
+    "imperfect": {
+      "yo":"pensaba",
+      "tu":"pensabas",
+      "usted":"pensaba",
+      "nosotros":"pensábamos",
+      "ustedes":"pensaban"
+    }
+  },
+  {
+    "inf":"caminar",
+    "translate":"to walk",
+    "present": {
+      "yo":"camino", 
+      "tu":"caminas",
+      "usted":"camina",
+      "nosotros":"caminamos",
+      "ustedes":"caminan"
+    },
+    "preterite": {
+      "yo":"caminé",
+      "tu":"caminaste",
+      "usted":"caminó",
+      "nosotros":"caminamos",
+      "ustedes":"caminaron"
+    },
+    "imperfect": {
+      "yo":"caminaba",
+      "tu":"caminabas",
+      "usted":"caminaba",
+      "nosotros":"caminábamos",
+      "ustedes":"caminaban"
+    }
+  },
+  {
+    "inf":"abrir",
+    "translate":"to open",
+    "present": {
+      "yo":"abro", 
+      "tu":"abres",
+      "usted":"abre",
+      "nosotros":"abrimos",
+      "ustedes":"abren"
+    },
+    "preterite": {
+      "yo":"abrí",
+      "tu":"abriste",
+      "usted":"abrió",
+      "nosotros":"abrimos",
+      "ustedes":"abrieron"
+    },
+    "imperfect": {
+      "yo":"abría",
+      "tu":"abrías",
+      "usted":"abría",
+      "nosotros":"abríamos",
+      "ustedes":"abrían"
+    }
+  },
+  {
+    "inf":"mandar",
+    "translate":"to order; to send",
+    "present": {
+      "yo":"mando", 
+      "tu":"mandas",
+      "usted":"manda",
+      "nosotros":"mandamos",
+      "ustedes":"mandan"
+    },
+    "preterite": {
+      "yo":"mandé",
+      "tu":"mandaste",
+      "usted":"mandó",
+      "nosotros":"mandamos",
+      "ustedes":"mandaron"
+    },
+    "imperfect": {
+      "yo":"mandaba",
+      "tu":"mandabas",
+      "usted":"mandaba",
+      "nosotros":"mandábamos",
+      "ustedes":"mandaban"
+    }
+  },
+  {
+    "inf":"cerrar",
+    "translate":"to close",
+    "present": {
+      "yo":"cierro", 
+      "tu":"cierras",
+      "usted":"cierra",
+      "nosotros":"cerramos",
+      "ustedes":"cierran"
+    },
+    "preterite": {
+      "yo":"cerré",
+      "tu":"cerraste",
+      "usted":"cerró",
+      "nosotros":"cerramos",
+      "ustedes":"cerraron"
+    },
+    "imperfect": {
+      "yo":"cerraba",
+      "tu":"cerrabas",
+      "usted":"cerraba",
+      "nosotros":"cerrábamos",
+      "ustedes":"cerraban"
+    }
+  },
+  {
+    "inf":"empezar",
+    "translate":"to begin; to start",
+    "present": {
+      "yo":"empiezo", 
+      "tu":"empiezas",
+      "usted":"empieza",
+      "nosotros":"empezamos",
+      "ustedes":"empiezan"
+    },
+    "preterite": {
+      "yo":"empecé",
+      "tu":"empezaste",
+      "usted":"empezó",
+      "nosotros":"empezamos",
+      "ustedes":"empezaron"
+    },
+    "imperfect": {
+      "yo":"empezaba",
+      "tu":"empezabas",
+      "usted":"empezaba",
+      "nosotros":"empezábamos",
+      "ustedes":"empezaban"
+    }
+  },
+  {
+    "inf":"probar",
+    "translate":"",
+    "present": {
+      "yo":"", 
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    },
+    "preterite": {
+      "yo":"",
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    },
+    "imperfect": {
+      "yo":"",
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    }
+  },
+  {
+    "inf":"",
+    "translate":"",
+    "present": {
+      "yo":"", 
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    },
+    "preterite": {
+      "yo":"",
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    },
+    "imperfect": {
+      "yo":"",
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    }
+  },
+  {
+    "inf":"",
+    "translate":"",
+    "present": {
+      "yo":"", 
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    },
+    "preterite": {
+      "yo":"",
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    },
+    "imperfect": {
+      "yo":"",
+      "tu":"",
+      "usted":"",
+      "nosotros":"",
+      "ustedes":""
+    }
   }
 ]
