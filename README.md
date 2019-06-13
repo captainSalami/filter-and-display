@@ -1,5 +1,5 @@
 ## Filter and Display Phrases
-#### For recall of common or useful phrases in spanish or english
+#### Resource for spanish verbs and their conjugated forms. Additionally, Phrases of the verbs in use are shown as well
 
 
 Features include:
